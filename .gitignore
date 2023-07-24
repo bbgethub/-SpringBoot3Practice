@@ -1,0 +1,28 @@
+## remove target folder at the top level of the project structue
+
+/target/
+*/target/**
+
+# any eclipse project file
+.eclipse
+.classpath
+/.settings/
+*/.settings/**
+/.metadata/
+*/.metadata/**
+/.mvn/
+*/.mvn/**
+/mvnw
+/mvnw.bat
+mvnw.cmd
+
+## Any un needed file any where in the project file structure.
+
+*.class
+*.tmp
+*.jar
+*.html
+*.png
+*.json
+*.csv
+target
